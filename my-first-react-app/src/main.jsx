@@ -4,6 +4,8 @@ import Greeting from "./Greeting.jsx";
 import App from "./App.jsx";
 import PackingList from "./Packed.jsx";
 import List from "./Array.jsx";
+import PropsExm from "./Props.jsx";
+import Gallery from "./Gallery.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -11,5 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
     <PackingList />
     <List />
+    <PropsExm />
+    <Gallery />
   </React.StrictMode>
 );
