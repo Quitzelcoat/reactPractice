@@ -6,6 +6,7 @@ import PackingList from "./Packed.jsx";
 import List from "./Array.jsx";
 import PropsExm from "./Props.jsx";
 import Gallery from "./Gallery.jsx";
+import Backcolor from "./color.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -15,5 +16,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <List />
     <PropsExm />
     <Gallery />
+    <Backcolor />
   </React.StrictMode>
 );
