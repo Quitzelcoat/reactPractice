@@ -1,4 +1,11 @@
-function Button({ text, color, fontSize, handleClick }) {
+function Button({
+  text = "Click Me!",
+  color = "blue",
+  fontSize = 12,
+  handleClick = (url) => {
+    window.location.href = url;
+  },
+}) {
   const buttonStyle = {
     color: color,
     fontSize: fontSize + "px",
@@ -13,12 +20,6 @@ function Button({ text, color, fontSize, handleClick }) {
     </button>
   );
 }
-
-Button.defaultProps = {
-  text: "Click Me!",
-  color: "blue",
-  fontSize: 12,
-};
 
 export default function PropsExm() {
   const handleButtonClick = (url) => {
