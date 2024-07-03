@@ -8,6 +8,7 @@ import PropsExm from "./Props.jsx";
 import Gallery from "./Gallery.jsx";
 import Backcolor from "./color.jsx";
 import Person from "./Age.jsx";
+import Clock from "./Clock.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -19,5 +20,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Gallery />
     <Backcolor />
     <Person />
+    <Clock />
   </React.StrictMode>
 );
