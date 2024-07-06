@@ -6,7 +6,7 @@ import PackingList from "./Packed.jsx";
 import List from "./Array.jsx";
 import PropsExm from "./Props.jsx";
 import Gallery from "./Gallery.jsx";
-import Backcolor from "./color.jsx";
+import Backcolor from "./Color.jsx";
 import Person from "./Age.jsx";
 import Clock from "./Clock.jsx";
 
