@@ -4,6 +4,7 @@ import userEvent from "@testing-library/user-event";
 import App from "../App";
 import ChangeOnClick from "../components/ChangeClick";
 
+// Example test
 describe("App Component", () => {
   it("renders", () => {
     render(<App />);
@@ -11,6 +12,7 @@ describe("App Component", () => {
   });
 });
 
+// Test for Click Text change
 describe("App Component", () => {
   it("renders magnificent monkeys", () => {
     // since screen does not have the container property, we'll destructure render to obtain a container for this test
