@@ -9,6 +9,7 @@ import Gallery from "./Gallery.jsx";
 import Backcolor from "./Color.jsx";
 import Person from "./Age.jsx";
 import Clock from "./Clock.jsx";
+import RenderName from "./Rendername.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -21,5 +22,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Backcolor />
     <Person />
     <Clock />
+    <RenderName />
   </React.StrictMode>
 );
