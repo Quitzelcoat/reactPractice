@@ -1,0 +1,22 @@
+.btn {
+  width: 90px;
+  height: 40px;
+  padding: 10px 20px;
+  /* margin-top: 20px; */
+  border-radius: 4px;
+  border: none;
+  /* background-color: bisque; */
+  display: flex;
+}
+
+.primary {
+  composes: btn;
+  composes: primaryColor from "../Colors.module.css";
+  composes: primaryBg from "../Colors.module.css";
+}
+
+.secondary {
+  composes: btn;
+  composes: secondaryColor from "../Colors.module.css";
+  composes: secondaryBg from "../Colors.module.css";
+}
